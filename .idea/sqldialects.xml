@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="dbSrc:///19a2303/73d413cd-21f7-4897-8d3b-6386b02271e2" dialect="Derby" />
+    <file url="dbSrc:///19a2303/b230f85b-f6b5-4297-bcd6-1054d9f13ed6" dialect="Derby" />
+  </component>
+</project>

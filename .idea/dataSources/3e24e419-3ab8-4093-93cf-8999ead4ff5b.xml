@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="testdb2@127.0.0.1 [2]">
+  <database-model serializer="dbm" rdbms="DERBY" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="APP">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="NULLID"/>
+    <schema id="4" parent="1" name="SQLJ"/>
+    <schema id="5" parent="1" name="SYS"/>
+    <schema id="6" parent="1" name="SYSCAT"/>
+    <schema id="7" parent="1" name="SYSCS_DIAG"/>
+    <schema id="8" parent="1" name="SYSCS_UTIL"/>
+    <schema id="9" parent="1" name="SYSFUN"/>
+    <schema id="10" parent="1" name="SYSIBM"/>
+    <schema id="11" parent="1" name="SYSPROC"/>
+    <schema id="12" parent="1" name="SYSSTAT"/>
+    <schema id="13" parent="1" name="TESTDB2">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="14" parent="13" name="BUS"/>
+    <table id="15" parent="13" name="ENTITYBUS"/>
+    <table id="16" parent="13" name="NAMINGSTRTEST"/>
+    <column id="17" parent="14" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="14" name="NUMBER">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="19" parent="14" name="SQL161110111254930">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="20" parent="15" name="EID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="21" parent="15" name="ENUMBER">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="22" parent="15" name="SQL161110111254680">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>EID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="23" parent="16" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="16" name="NUMBER">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="25" parent="16" name="SQL161110111255020">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

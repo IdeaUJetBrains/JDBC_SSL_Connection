@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="testdb1@127.0.0.1">
+  <database-model serializer="dbm" rdbms="DERBY" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="APP"/>
+    <schema id="3" parent="1" name="NULLID"/>
+    <schema id="4" parent="1" name="SQLJ"/>
+    <schema id="5" parent="1" name="SYS"/>
+    <schema id="6" parent="1" name="SYSCAT"/>
+    <schema id="7" parent="1" name="SYSCS_DIAG"/>
+    <schema id="8" parent="1" name="SYSCS_UTIL"/>
+    <schema id="9" parent="1" name="SYSFUN"/>
+    <schema id="10" parent="1" name="SYSIBM"/>
+    <schema id="11" parent="1" name="SYSPROC"/>
+    <schema id="12" parent="1" name="SYSSTAT"/>
+    <schema id="13" parent="1" name="TESTDB1">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="14" parent="13" name="ENTITYBUS"/>
+    <column id="15" parent="14" name="EID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="14" name="ENUMBER">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="17" parent="14" name="SQL161109164631000">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>EID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

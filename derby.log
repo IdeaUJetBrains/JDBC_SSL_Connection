@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Nov 09 12:06:36 CET 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-0158-48c4-a3d9-00000e11e998 
+on database directory C:\Users\Olga Pavlova\IdeaProjects\JDBC_SSL_Connection\testdb with class loader sun.misc.Launcher$AppClassLoader@14dad5dc 
+Loaded from file:/C:/Java/db_drivers/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_60-b27
+user.dir=C:\Users\Olga Pavlova\IdeaProjects\JDBC_SSL_Connection
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
